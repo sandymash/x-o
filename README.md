@@ -8,3 +8,6 @@ tic tac toe game w/ swift - exercise #1!
 
 ## screenshot:
 <img width="407" alt="Screen Shot 2022-04-26 at 21 13 12" src="https://user-images.githubusercontent.com/42100027/165366527-35975c3b-1c7a-4671-b7a9-d104c56156bd.png">
+
+https://user-images.githubusercontent.com/42100027/165374737-e9cbb521-bf06-40ee-92fb-b20b134f3d8e.mp4
+
