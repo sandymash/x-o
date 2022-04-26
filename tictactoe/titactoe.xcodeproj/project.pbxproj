@@ -16,11 +16,6 @@
 		050FDCD528148A0F003D023B /* titactoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FDCD428148A0F003D023B /* titactoeTests.swift */; };
 		050FDCDF28148A0F003D023B /* titactoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FDCDE28148A0F003D023B /* titactoeUITests.swift */; };
 		050FDCE128148A0F003D023B /* titactoeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FDCE028148A0F003D023B /* titactoeUITestsLaunchTests.swift */; };
-		050FDCF028148AB2003D023B /* square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FDCEF28148AB2003D023B /* square.swift */; };
-		050FDCF5281497C2003D023B /* boardbg.001.png in Resources */ = {isa = PBXBuildFile; fileRef = 050FDCF4281497C2003D023B /* boardbg.001.png */; };
-		050FDCF8281498E1003D023B /* boardbg13.001.png in Resources */ = {isa = PBXBuildFile; fileRef = 050FDCF7281498E1003D023B /* boardbg13.001.png */; };
-		050FDD022814A046003D023B /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FDD012814A046003D023B /* GameController.swift */; };
-		050FDD042814A3AF003D023B /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050FDD032814A3AF003D023B /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +49,6 @@
 		050FDCDA28148A0F003D023B /* titactoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = titactoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		050FDCDE28148A0F003D023B /* titactoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titactoeUITests.swift; sourceTree = "<group>"; };
 		050FDCE028148A0F003D023B /* titactoeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titactoeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		050FDCEF28148AB2003D023B /* square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = square.swift; sourceTree = "<group>"; };
-		050FDCF4281497C2003D023B /* boardbg.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boardbg.001.png; path = boardbg/boardbg.001.png; sourceTree = "<group>"; };
-		050FDCF7281498E1003D023B /* boardbg13.001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boardbg13.001.png; path = boardbg13/boardbg13.001.png; sourceTree = "<group>"; };
-		050FDD012814A046003D023B /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
-		050FDD032814A3AF003D023B /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +102,6 @@
 				050FDCBD28148A0E003D023B /* AppDelegate.swift */,
 				050FDCBF28148A0E003D023B /* SceneDelegate.swift */,
 				050FDCC128148A0E003D023B /* ViewController.swift */,
-				050FDCEF28148AB2003D023B /* square.swift */,
-				050FDD012814A046003D023B /* GameController.swift */,
-				050FDD032814A3AF003D023B /* SquareView.swift */,
-				050FDCF7281498E1003D023B /* boardbg13.001.png */,
-				050FDCF4281497C2003D023B /* boardbg.001.png */,
 				050FDCC328148A0E003D023B /* Main.storyboard */,
 				050FDCC628148A0F003D023B /* Assets.xcassets */,
 				050FDCC828148A0F003D023B /* LaunchScreen.storyboard */,
@@ -248,9 +233,7 @@
 			files = (
 				050FDCCA28148A0F003D023B /* LaunchScreen.storyboard in Resources */,
 				050FDCC728148A0F003D023B /* Assets.xcassets in Resources */,
-				050FDCF5281497C2003D023B /* boardbg.001.png in Resources */,
 				050FDCC528148A0E003D023B /* Main.storyboard in Resources */,
-				050FDCF8281498E1003D023B /* boardbg13.001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				050FDCF028148AB2003D023B /* square.swift in Sources */,
-				050FDD022814A046003D023B /* GameController.swift in Sources */,
 				050FDCC228148A0E003D023B /* ViewController.swift in Sources */,
 				050FDCBE28148A0E003D023B /* AppDelegate.swift in Sources */,
-				050FDD042814A3AF003D023B /* SquareView.swift in Sources */,
 				050FDCC028148A0E003D023B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,6 +13,11 @@ class ViewController: UIViewController {
         case ex
         case oh
     }
+    enum GameStatus {
+        case Active
+        case Draw
+        case Won
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         turnLabel.text = getTurnLabel(firstTurn)
@@ -118,7 +123,7 @@ class ViewController: UIViewController {
         }
     }
     
-    private func updateGameStatus(_ status: Game.Status) {
+    private func updateGameStatus(_ status: GameStatus) {
         switch status {
             case .Draw:
                 gameStatusLabel.text = "\(statusDrawText)"
